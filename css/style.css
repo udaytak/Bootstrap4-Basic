@@ -56,7 +56,23 @@ html, body{
 	bottom: 5px;
 }
 
-#icon .tumblr:hover{
-	color: #34526f;
-	bottom: 5px;
+#signup{
+	text-align: center;
+}
+
+#signup .form-inline{
+	display: block;
+}
+
+#signup .btn{
+	background-color: rgba(161,186,226,0.5);
+	color:white;
+	position: relative;
+	bottom: 0;
+	margin: 3px;
+}
+
+#signup .btn:hover{
+	background-color: rgba(37,165,82,1) ;
+	bottom: 1px;
 }
