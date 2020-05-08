@@ -8,18 +8,18 @@
 
     if (!$_POST['email']) {
       # code...
-      $emailError = "Please enter valid email address"
+      $emailError = '<div class="text-danger">i class="fas fa-exclamation-triangle"></i> &nbsp;&nbsp;Please enter valid email address</div>'
     }
 
     if(!$emailError)
     {
       if (mail($to, $subject, $body, $from)) {
         # code...
-        $result = 'Thank you we\'ll keep you updated';
+        $result = '<div class="text-success"><i class="fas fa-check"></i>&nbsp;&nbsp;Thank you we\'ll keep you updated</div>';
       }
 
       else{
-        $result = 'Sorry there has been an error. Please try again';
+        $result = '<div class="text-danger">i class="fas fa-exclamation-triangle"></i> &nbsp;&nbsp;Sorry there has been an error. Please try again. </div>';
       }
     }
   }
