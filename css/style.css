@@ -25,12 +25,12 @@ html, body{
 	}
 }
 
-@media(min-width: 321px) 
+/*@media(min-width: 321px) 
 	and (max-width: 568px){
 	#logo img{
 		width: 20%;
 	}
-}
+}*/
 
 #logo img {
 	padding-top: 10px;
