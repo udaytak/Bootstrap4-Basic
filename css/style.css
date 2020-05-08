@@ -23,7 +23,13 @@ html, body{
 		width:65%;
 		margin:auto;
 	}
+}
 
+@media(min-width: 321px) 
+	and (max-width: 568px){
+	#logo img{
+		width: 20%;
+	}
 }
 
 #logo img {
